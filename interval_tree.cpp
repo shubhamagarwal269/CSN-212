@@ -45,21 +45,6 @@ int num_of_nodes(struct tree** root,int ans)
 }
 
 
-struct tree** searchParent(struct tree** root,int data)
-{
-	struct tree** temp=root;
-	struct tree** par=NULL;
-	while((*temp)!=NULL && (data!=(*temp)->val_left ))
-	{
-		par=temp;
-		if((*temp)->l_child!=NULL && data<(*temp)->val_left)
-				(*temp)=(*temp)->l_child;
-		else (*temp)=(*temp)->r_child;
-		
-	}
-	return par;	
-}
-
 
 void print_left(struct tree** root)
 {
@@ -270,4 +255,3 @@ int main()
 		struct tree * root  = NULL;	
 		diff_functions(&root);
 }
-
