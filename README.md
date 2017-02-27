@@ -1,4 +1,4 @@
-   # CSN-212
+# CSN-212
 
 #Tutorial-3
 The code- "Interval-Tree.cpp" has functions to insert, delete and search in a interval tree made from a binary search tree.
