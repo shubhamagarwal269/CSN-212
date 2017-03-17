@@ -72,7 +72,7 @@ int main()
 			cout<<shortest_path[i]<<" ";
 	}
 	int stop_s=clock();
-	cout << "time taken : " << (stop_s-start_s)/double(CLOCKS_PER_SEC)*1000 << endl; // to get the running time of an algorithm
+	cout << "time taken in milliseconds : " << (stop_s-start_s)/double(CLOCKS_PER_SEC)*1000 << endl; // to get the running time of an algorithm
 	//worst case of this algorithm is O(vertex*edge)
 	//best case of this algorithm is O(edge)
 	
