@@ -10,3 +10,6 @@ The code "Lucky_Draw.cpp" is solution for https://www.codechef.com/problems/D2
 
 #Assignment-3
 The code "Bellman_Ford.cpp" finds out the minimum path from staring to any vertex in a given directed graph. It also detects negative cycles, if any.
+
+#Assignment-4
+The code "Gift-wrappinp.cpp", "Graham-Scan.cpp" and "Quick_hull.cpp" finds out the points present on the convex hull, if a set of random points in a 2-D plane are given.
